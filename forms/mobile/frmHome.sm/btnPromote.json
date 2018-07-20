@@ -44,6 +44,7 @@
     "displaytext": true,
     "focusskin": "sc2f42c61a394f758a2c8b623ac42bd5",
     "id": "btnPromote",
+    "ide_onClick": "AS_Button_b5afad3813a940e89552383d4a3bb735",
     "info": null,
     "isvisible": true,
     "kuid": "j1ffe8331d0d4d1da9e714c3d3f180af",
