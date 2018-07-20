@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "40%"
     },
     "_left_": {
         "type": "string",
-        "value": "56dp"
+        "value": "43dp"
     },
     "_margin_": [
         6,
@@ -22,28 +22,37 @@
         0,
         0
     ],
-    "_skin_": "s03657b113f044059661038bcc9826bc",
-    "_text_": "Button",
+    "_skin_": "sff398675c9a4c80b160e46541bb634e",
+    "_text_": "Prospect",
     "_top_": {
         "type": "string",
-        "value": "24dp"
+        "value": "42dp"
     },
     "_width_": {
         "type": "string",
-        "value": "260dp"
+        "value": "40%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "26.14%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "59.62%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
-    "id": "Button0aa9e17471b2242",
+    "id": "btnImportProspect",
+    "ide_onClick": "AS_Button_e532fbb3a8ab4d5399946dc0bcf32020",
     "info": null,
     "isvisible": true,
-    "kuid": "ae0eb20400634f8ead290dbde62d9bca",
+    "kuid": "f8aa6456d6e5436a99285fc0b697e051",
     "name": "kony.ui.Button",
-    "parent": "flxLoginSocial",
-    "pf": "frmLogin",
+    "parent": "flxConnectionImport",
+    "pf": "frmNewConnection",
     "wType": "Button",
     "zindex": 1
 }

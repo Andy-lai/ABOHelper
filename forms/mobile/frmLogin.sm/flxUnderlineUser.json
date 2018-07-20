@@ -3,7 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "2dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "27dp"
     },
     "_margin_": [
         0,
@@ -19,10 +23,14 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s3f5c24217c246d59ca4840b8c43a6c8",
+    "_skin_": "s36889555e61458ca1654cea29b303ab",
+    "_top_": {
+        "type": "string",
+        "value": "136dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -33,26 +41,19 @@
     },
     "centery": {
         "type": "string",
-        "value": "36.31%"
+        "value": "38.96%"
     },
-    "children": [
-        "lgoAmway",
-        "txtUsername",
-        "txtPassword",
-        "flxUnderlineUser",
-        "flxUnderlinePassword",
-        "btnLogin"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxLoginMain",
+    "id": "flxUnderlineUser",
     "info": null,
     "isvisible": true,
-    "kuid": "bb66b6ec12e448e78445ef35f9bbdbc0",
+    "kuid": "eb926474a9c94914b512f22bc823740f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmLogin",
+    "parent": "flxLoginMain",
     "pf": "frmLogin",
     "snapgridsize": 10,
     "snaptogrid": true,

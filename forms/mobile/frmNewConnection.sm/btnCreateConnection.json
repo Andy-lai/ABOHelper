@@ -6,6 +6,10 @@
         "type": "string",
         "value": "50dp"
     },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
     "_margin_": [
         6,
         6,
@@ -18,32 +22,36 @@
         0,
         0
     ],
-    "_skin_": "s8fe0c0538ab4ef898e6e4b4800cd176",
-    "_text_": "F",
+    "_skin_": "s708ebc7ae934a4b8172ea2383f1859e",
+    "_text_": "Create",
+    "_top_": {
+        "type": "string",
+        "value": "353dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "50%"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "27.50%"
+        "value": "50%"
     },
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "87.50%"
     },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
-    "id": "btnFb",
+    "id": "btnCreateConnection",
     "info": null,
     "isvisible": true,
-    "kuid": "abdead089a4b4caeadee9c76f2076898",
+    "kuid": "h8b9fd542b1a4186a18207dce19deed5",
     "name": "kony.ui.Button",
-    "parent": "flxLoginSocial",
-    "pf": "frmLogin",
+    "parent": "flxConnectionFill",
+    "pf": "frmNewConnection",
     "wType": "Button",
     "zindex": 1
 }

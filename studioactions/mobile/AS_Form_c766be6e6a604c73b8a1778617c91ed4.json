@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__e8e623d9793f47a1a83e1e6e9c6b9e1c",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "frmSearch.btnSearch.onTouchEnd = searchOnClick;\n",
+            "codeSnippet": "frmSearch.searchIcon.onTouchEnd = searchOnClick;\n",
             "parentId": null,
             "callbackType": null
         }]
