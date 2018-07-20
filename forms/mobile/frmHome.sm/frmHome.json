@@ -28,7 +28,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "flxMainActivity"
+        "flxMainActivity",
+        "flxNavHome"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -39,6 +40,7 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmHome",
+    "ide_init": "AS_Form_h9f5f288a2d94089bb67ab4657147cf6",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

@@ -38,9 +38,8 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "searchInput",
-        "searchIcon",
-        "sgmtSearchResults"
+        "sgmtSearchResults",
+        "flxSearchBar"
     ],
     "clipbounds": true,
     "containerweight": 100,

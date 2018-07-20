@@ -1,0 +1,24 @@
+{
+    "AS_Form_h9f5f288a2d94089bb67ab4657147cf6": {
+        "id": "AS_Form_h9f5f288a2d94089bb67ab4657147cf6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a4806521fe224e45a6283d38fdf1097a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d2475c3683e942c286f0c1ca88895f49",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHome.flxNavHome.left = \"-100%\"\nfunction formGesture(widgetID,gestureInfo)\n{\n\n\tvar a = gestureInfo.gestureType;\n\n\tif(kony.os.toNumber(a) == 2)\n\t{\n\t\th = gestureInfo.swipeDirection;\n      \tif (h==1)\n        {\n          moveAnimation(frmHome.flxNavHome,\"-100%\");\n\t\t  frmHome.flxMainActivity.setEnabled(true)\n        }\n\t}\n}\n\nfunction ActivityCardGesture(widgetID,gestureInfo)\n{\n\n\tvar a = gestureInfo.gestureType;\n\n\tif(kony.os.toNumber(a) == 2)\n\t{\n\t\th = gestureInfo.swipeDirection;\n      \tif (h==2)\n        {\n          moveAnimation(\"-100%\");\n\t\t  frmHome.flxMainActivity.setEnabled(true)\n        }\n\t}\n}\n\nvar x ={fingers:1,taps:1};\ntry{\n     frmHome.flxNavHome.setGestureRecognizer(2, x, \n\t\tformGesture);\n  \tfrmHome.setGestureRecognizer(2, x, \n\t\tformGesture);\n  \n\t}\n\tcatch(err){\n\t\talert(typeof err);\n\t\talert(\"error in function callbackSingleTapGesture: \"+err.message);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

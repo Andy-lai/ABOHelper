@@ -1,0 +1,24 @@
+{
+    "AS_Button_j6dd63dcc8a745348348e392641f324c": {
+        "id": "AS_Button_j6dd63dcc8a745348348e392641f324c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSearch",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aab0148295b24884b6fe0e7ad824380d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aa89201c1cd74fde9578b80d55f43290",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function searchOnClick() {\n  var categories = {'Users':Users,'Tags':Tags,'Groups':Groups,'Products':Products};\n  data = [];\n  var i = 0;\n\n  for(var category in categories){\n    data.push([\n      {lblSearchHeader:category},\n      []\n    ]);\n    for(var item of categories[category]){\n      firstName = item.firstName;\n      if(firstName != null && frmSearch.searchInput != null && frmSearch.searchInput.text != null){\n        if(firstName.toLowerCase().indexOf(frmSearch.searchInput.text.toLowerCase()) > 0){\n          data[i][1].push({ lblSearchContent:  firstName});\n        }\n      }\n      tag_name = item.tag;\n      if(tag_name != null && frmSearch.searchInput != null && frmSearch.searchInput.text != null){\n        if(tag_name.toLowerCase().indexOf(frmSearch.searchInput.text.toLowerCase()) > 0){\n          data[i][1].push({ lblSearchContent:  tag_name});\n        }\n      }\n      group = item.group;\n      if(group != null && frmSearch.searchInput != null && frmSearch.searchInput.text != null){\n        if(group.toLowerCase().indexOf(frmSearch.searchInput.text.toLowerCase()) > 0){\n          data[i][1].push({ lblSearchContent:  group});\n        }\n      }\n      product = item.product;\n      if(product != null && frmSearch.searchInput != null && frmSearch.searchInput.text != null){\n        if(product.toLowerCase().indexOf(frmSearch.searchInput.text.toLowerCase()) > 0){\n          data[i][1].push({ lblSearchContent:  product});\n        }\n      }\n    }\n    i++;\n  }\n  frmSearch.sgmtSearchResults.setData(data);\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

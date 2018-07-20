@@ -6,11 +6,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "4.57%"
+        "value": "80%"
     },
     "_left_": {
         "type": "string",
-        "value": "90%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -24,38 +24,42 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0%"
-    },
-    "_skin_": "s3b11b6a6d6f42a6bbfbe49c4b54cbfe",
-    "_src_": "zoomin.png",
+    "_skin_": "sa81a65c2bd94305b5bfcd3460a09fa5",
+    "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "7.53%"
+        "value": "80%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmSearch",
-        "platform": "iphone",
+        "formID": "frmHome",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "searchIcon",
-    "imagescalemode": 0,
+    "id": "imgProfile",
+    "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "isvisible": true,
-    "kuid": "d21ba6ed551d42e8af213ad1ac5dbc5e",
+    "kuid": "a7b02f49357e415a8b334d3f31924deb",
+    "masterType": 1,
     "name": "kony.ui.Image2",
-    "parent": "flxSearch",
-    "pf": "frmSearch",
+    "parent": "flxProfileimgContainer",
+    "pf": "frmHome",
     "srcType": 1,
     "wType": "Image",
     "widgetalignment": 5,

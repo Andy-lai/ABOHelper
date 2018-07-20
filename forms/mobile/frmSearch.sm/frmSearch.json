@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd60ccaffd3544bba35d8e37b215d935",
+    "_skin_": "s6fe686f3299465d849f3e4f5a2c0475",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -34,7 +34,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "GalaxyS5",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmSearch",
@@ -75,11 +75,11 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS5",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
