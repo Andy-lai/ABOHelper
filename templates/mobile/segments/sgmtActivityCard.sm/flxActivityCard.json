@@ -36,7 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblActivityCardBody"
+        "lblActivityCardBody",
+        "lblUserId"
     ],
     "clipbounds": true,
     "containerId": true,

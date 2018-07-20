@@ -1,0 +1,27 @@
+{
+    "AS_Button_hf10e0fbe60e441d8546041d04c49345": {
+        "id": "AS_Button_hf10e0fbe60e441d8546041d04c49345",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "sgmtActivityCard",
+            "type": "templates",
+            "platform": "",
+            "KUID": "cc4e356d939e472fb6697f61cc5ccc14"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e2479a5713b04ee2aff44486426c1861",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// var id = frmHome.sgmtActivities[frmHome.sgmtActivities.selectedRowIndex];\n\n// alert(id);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

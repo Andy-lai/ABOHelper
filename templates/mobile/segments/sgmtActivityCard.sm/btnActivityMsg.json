@@ -23,7 +23,7 @@
         0,
         0
     ],
-    "_skin_": "s69bdfe6fdd04a389fe0ce4f073fe147",
+    "_skin_": "s602bc5530964ce4b48fe2e06a4d7b17",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -42,7 +42,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
+    "focusskin": "s79702090b174eaa8f6f3274059eb31d",
     "id": "btnActivityMsg",
     "info": null,
     "isvisible": true,

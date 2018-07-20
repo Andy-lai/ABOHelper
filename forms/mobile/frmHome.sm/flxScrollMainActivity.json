@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
@@ -40,7 +39,8 @@
     "canUpdateUI": true,
     "children": [
         "flxMainNav",
-        "flxAboActivies"
+        "flxAboActivies",
+        "Button0da380c05206d40"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -4,142 +4,341 @@
     "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_data_": [
-        {
-            "Button0b05168f9f5ab42": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+        [
+            {
+                "lblActivityHeaderTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
             },
-            "btnActivityCall": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+            [
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblActivityHeaderTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
             },
-            "btnActivityMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblActivityCardBody": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "Button0b05168f9f5ab42": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityCall": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblActivityCardBody": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "Button0b05168f9f5ab42": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityCall": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblActivityCardBody": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "Button0b05168f9f5ab42": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityCall": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblActivityCardBody": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "Button0b05168f9f5ab42": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityCall": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblActivityCardBody": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "Button0b05168f9f5ab42": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityCall": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblActivityCardBody": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "Button0b05168f9f5ab42": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityCall": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "btnActivityMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblActivityCardBody": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        }
+            [
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "btnActivityCall": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnActivityMsg": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnReminder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblActivityCardBody": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUserId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                }
+            ]
+        ]
     ],
     "_height_": {
         "type": "ref",
         "value": "preferred"
     },
     "_indicator_": "none",
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_left_": "0dp",
     "_margin_": [
         0,
         0,
@@ -153,10 +352,7 @@
         0,
         0
     ],
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_top_": "0dp",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -164,12 +360,15 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "06",
+    "counter": "16",
+    "disabledSkins": {
+        "rowSkin": "sb849ef166ea484ea0d37266bc5cba0d"
+    },
     "focusedindex": null,
     "focuseditem": null,
     "generatedtemplate": "cc69f669aab7436ea872ee14016051e9",
     "groupcells": false,
-    "hasSections": false,
+    "hasSections": true,
     "id": "sgmtActivities",
     "info": null,
     "ipad": {
@@ -199,11 +398,12 @@
     "rowTemplateId": "cc4e356d939e472fb6697f61cc5ccc14",
     "rowcounter": 6,
     "rowfocusskin": "s5b99cdef5064d0e9901f04b181308b4",
-    "rowskin": "sb849ef166ea484ea0d37266bc5cba0d",
     "rowtemplate": "flxActivityCardContainer",
     "screenlevelwidget": false,
-    "seccounter": 0,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "b8682b2f217744f5b1698d40149b43b5",
     "sectionheaderskin": "s0a1ba8a075a4942a2701fd6a1e5027f",
+    "sectionheadertemplate": "flxActivityHeader",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
@@ -211,21 +411,23 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorcolor": "00000055",
-    "separatorrequired": true,
-    "separatorthickness": 3,
+    "separatorrequired": false,
+    "separatorthickness": 0,
     "showscrollbars": false,
     "viewtype": "tableview",
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "Button0b05168f9f5ab42": "Button0b05168f9f5ab42",
         "btnActivityCall": "btnActivityCall",
         "btnActivityMsg": "btnActivityMsg",
+        "btnReminder": "btnReminder",
         "flxActivityCard": "flxActivityCard",
         "flxActivityCardContainer": "flxActivityCardContainer",
+        "flxActivityHeader": "flxActivityHeader",
         "flxActivityOptions": "flxActivityOptions",
-        "lblActivityCardBody": "lblActivityCardBody"
+        "lblActivityCardBody": "lblActivityCardBody",
+        "lblActivityHeaderTitle": "lblActivityHeaderTitle",
+        "lblUserId": "lblUserId"
     },
     "zindex": 1
 }

@@ -46,6 +46,7 @@
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
     "id": "btnLogin",
+    "ide_onClick": "AS_Button_ba3a520a824742e4ac9f7c7e8b1ef9be",
     "info": null,
     "isvisible": true,
     "kuid": "g6182be5a2694cbc9f644bf0f85aaffa",

@@ -1,15 +1,14 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "54dp"
     },
     "_margin_": [
         6,
@@ -23,33 +22,28 @@
         0,
         0
     ],
-    "_skin_": "s792c5044fc348ac9e6fdf2cf2ae6f05",
-    "_text_": "",
+    "_skin_": "s03657b113f044059661038bcc9826bc",
+    "_text_": "Button",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "33%"
+        "value": "260dp"
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
-    "id": "Button0b05168f9f5ab42",
+    "id": "Button0da380c05206d40",
     "info": null,
     "isvisible": true,
-    "kuid": "abeffa32d7494194ba37160280abed03",
+    "kuid": "aec0a8ccd9414e46b8b007a4d306dad0",
     "name": "kony.ui.Button",
-    "parent": "flxActivityOptions",
-    "pf": "sgmtActivityCard",
+    "parent": "flxScrollMainActivity",
+    "pf": "frmHome",
     "wType": "Button",
     "zindex": 1
 }

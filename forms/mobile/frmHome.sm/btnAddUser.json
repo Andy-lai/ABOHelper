@@ -44,6 +44,7 @@
     "displaytext": true,
     "focusskin": "scfb4f37700f4b67b45f49d109d05afb",
     "id": "btnAddUser",
+    "ide_onClick": "AS_Button_ab19e3c0a41a4d5f9cd4e499c034088a",
     "info": null,
     "isvisible": true,
     "kuid": "a55299b5db7948d1bc809399e2b84969",

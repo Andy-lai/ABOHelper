@@ -18,7 +18,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sddaccd45fc24577b968ed1204f0a6ef",
+    "_skin_": "sdc513c1cfd6422bae5d792624e8f2da",
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
@@ -42,5 +42,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 5
 }

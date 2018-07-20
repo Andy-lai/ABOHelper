@@ -1,4 +1,5 @@
 function AS_Form_h9f5f288a2d94089bb67ab4657147cf6(eventobject) {
+    setActivitiesData();
     frmHome.flxNavHome.left = "-100%"
 
     function formGesture(widgetID, gestureInfo) {
@@ -32,7 +33,7 @@ function AS_Form_h9f5f288a2d94089bb67ab4657147cf6(eventobject) {
             }
         }
         var index = {
-            sectionIndex: 0,
+            sectionIndex: context.sectionIndex,
             rowIndex: context.rowIndex,
         }; //context.rowIndex
         var a = gestureInfo.gestureType;

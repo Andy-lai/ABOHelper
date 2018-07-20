@@ -43,7 +43,7 @@
     "children": [
         "btnActivityCall",
         "btnActivityMsg",
-        "Button0b05168f9f5ab42"
+        "btnReminder"
     ],
     "clipbounds": true,
     "containerId": true,

@@ -23,7 +23,7 @@
         0,
         0
     ],
-    "_skin_": "sbad9b21d33545a783b51457b9828486",
+    "_skin_": "s34b8ce252f74466bde372b9cbed41a3",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -36,14 +36,15 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "51.44%"
     },
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
+    "focusskin": "sadd32aae415468890208790af6f57b3",
     "id": "btnActivityCall",
+    "ide_onClick": "AS_Button_hf10e0fbe60e441d8546041d04c49345",
     "info": null,
     "isvisible": true,
     "kuid": "i1cd9b5ea9d94c81b47729acef3bfbbe",
