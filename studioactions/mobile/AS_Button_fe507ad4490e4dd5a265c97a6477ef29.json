@@ -1,0 +1,24 @@
+{
+    "AS_Button_fe507ad4490e4dd5a265c97a6477ef29": {
+        "id": "AS_Button_fe507ad4490e4dd5a265c97a6477ef29",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewGroup",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a4bf8c6486914ecdac37b7560822c812"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j43022fbd2454aa796928e7c1c8553c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var groups = Groups;\n\nfor(groupObj of groups){\n  if(groupObj.group.equals(txtNewGroup.text)){\n    showConfirmationPopup(\"A group with this name already exists.\");\n  }\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -116,7 +116,7 @@ var Users = [{
 				"product_name": "Artistry Hyrating Lotion"
 			},
 			{
-				"purchased_on": "2017-10-20",
+				"purchased_on": "2018-06-20",
 				"product_name": "Artistry Youth Extend"
 			},
 			{
@@ -229,7 +229,7 @@ var Users = [{
 			"nutrition"
 		],
 		"products": [{
-				"purchased_on": "2017-03-15",
+				"purchased_on": "2018-04-15",
 				"product_name": "Satinique Scalp Tonic"
 			},
 			{

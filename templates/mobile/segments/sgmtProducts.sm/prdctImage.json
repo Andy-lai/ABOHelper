@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdfab8ad6b224203a3b3f3bc7f52ba82",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "sgmtProducts",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "prdctImage",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "cc8c17bf4c354a2e8f24fcb0806e39a2",
+    "name": "kony.ui.Image2",
+    "parent": "flxProducts",
+    "pf": "sgmtProducts",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

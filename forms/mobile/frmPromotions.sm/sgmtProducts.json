@@ -1,0 +1,117 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_indicator_": "none",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": "0dp",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "d2f7ecd73e0c469ebb3e95478acf9ec4",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmtProducts",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "b3afa1b29d68448994601fdf3784586b",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxProducts",
+    "pf": "frmPromotions",
+    "retainselection": false,
+    "rowTemplateId": "d2f7ecd73e0c469ebb3e95478acf9ec4",
+    "rowcounter": 2,
+    "rowfocusskin": "s5b99cdef5064d0e9901f04b181308b4",
+    "rowskin": "sb849ef166ea484ea0d37266bc5cba0d",
+    "rowtemplate": "FBox0a9f931b8e7264f",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s0a1ba8a075a4942a2701fd6a1e5027f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1080,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "imgProduct": "imgProduct"
+    },
+    "zindex": 1
+}

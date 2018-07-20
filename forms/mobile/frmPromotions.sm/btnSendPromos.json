@@ -1,14 +1,15 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
+    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "50dp"
     },
     "_left_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -23,10 +24,10 @@
         0
     ],
     "_skin_": "s03657b113f044059661038bcc9826bc",
-    "_text_": "Button",
+    "_text_": "Send ",
     "_top_": {
         "type": "string",
-        "value": "80%"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -41,13 +42,13 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
-    "id": "btnPopupConfirmationOk",
+    "id": "btnSendPromos",
     "info": null,
     "isvisible": true,
-    "kuid": "b9ea8153b0ae4eb6bab066809ceed725",
+    "kuid": "gdcd4b3292184b09bba5f6821b0354ca",
     "name": "kony.ui.Button",
-    "parent": "flxPopupConfirmation",
-    "pf": "userwidgetmodel",
+    "parent": "flxMsgSend",
+    "pf": "frmPromotions",
     "wType": "Button",
     "zindex": 1
 }

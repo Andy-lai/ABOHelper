@@ -3,7 +3,7 @@ var ActivityData = [
   {
     "Today": [
       {
-        "text": "Call Murphy Clemons",
+          "text": "Call Murphy Clemons",
         "userId": [
           0
         ]
