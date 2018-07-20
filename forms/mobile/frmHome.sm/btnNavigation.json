@@ -42,6 +42,7 @@
     "displaytext": true,
     "focusskin": "s40979bbd6cf479db7680cca7a75c517",
     "id": "btnNavigation",
+    "ide_onClick": "AS_Button_gb101c5509434c029348774becf4da44",
     "info": null,
     "isvisible": true,
     "kuid": "i26f8d5bd6fc4199a3464e5c033a60bd",

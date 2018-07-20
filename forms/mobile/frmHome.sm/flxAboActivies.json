@@ -37,7 +37,7 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "sgmtActivies"
+        "sgmtActivities"
     ],
     "clipbounds": true,
     "containerweight": 100,

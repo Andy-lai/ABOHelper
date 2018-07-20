@@ -35,17 +35,18 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "95%"
+        "value": "95.03%"
     },
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "49.81%"
     },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s3164132a88b4d88986a75e17c88de3e",
     "id": "btnSearch",
+    "ide_onClick": "AS_Button_ae3ea02c9cf34f028eb7701aa564dea0",
     "info": null,
     "isvisible": true,
     "kuid": "b8a745f32cd24df5883368edbab611a0",

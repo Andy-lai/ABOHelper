@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbad9b21d33545a783b51457b9828486",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
+    "id": "btnActivityCall",
+    "info": null,
+    "isvisible": true,
+    "kuid": "i1cd9b5ea9d94c81b47729acef3bfbbe",
+    "name": "kony.ui.Button",
+    "parent": "flxActivityOptions",
+    "pf": "sgmtActivityCard",
+    "wType": "Button",
+    "zindex": 1
+}

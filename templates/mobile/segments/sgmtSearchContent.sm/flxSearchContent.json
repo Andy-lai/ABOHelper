@@ -18,7 +18,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sddaccd45fc24577b968ed1204f0a6ef",
+    "_skin_": "sa3e7eb53f8744d08e85cdba5c81d12d",
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
@@ -31,6 +31,7 @@
     "enablescrolling": true,
     "id": "flxSearchContent",
     "info": null,
+    "isTemplate": true,
     "isvisible": true,
     "kuid": "g3b140339d7841c48adac4ad0d4e31dc",
     "layouttype": 2,
