@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "16dp"
+        "value": "85%"
     },
     "_margin_": [
         6,
@@ -22,28 +22,29 @@
         0,
         0
     ],
-    "_skin_": "s03657b113f044059661038bcc9826bc",
-    "_text_": "Button",
+    "_skin_": "s23f3b2f60994f0ea25e8f5e5a580c2e",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "60dp"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",
-        "value": "260dp"
+        "value": "15%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
-    "id": "btnPopupConfirmationNo",
+    "id": "btnAddGroup",
+    "ide_onClick": "AS_Button_fe507ad4490e4dd5a265c97a6477ef29",
     "info": null,
     "isvisible": true,
-    "kuid": "i01e146092e04abc8d0556d448277f37",
+    "kuid": "iea75f4f8e0149a4831aebaf7aabeaf4",
     "name": "kony.ui.Button",
-    "parent": "flxPopupConfirmation",
-    "pf": "userwidgetmodel",
+    "parent": "frmNewGroup",
+    "pf": "frmNewGroup",
     "wType": "Button",
     "zindex": 1
 }
