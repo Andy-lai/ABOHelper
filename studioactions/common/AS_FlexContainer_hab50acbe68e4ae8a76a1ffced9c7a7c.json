@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_hab50acbe68e4ae8a76a1ffced9c7a7c": {
+        "id": "AS_FlexContainer_hab50acbe68e4ae8a76a1ffced9c7a7c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu320484eb41e4f8c9f8c1feea0fa554a",
+            "type": "userwidgets",
+            "KUID": "u320484eb41e4f8c9f8c1feea0fa554a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d3a11d5da8b847179407267183087b03",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nfunction viewCardGesture(widgetID,gestureInfo)\n{\n\n\tvar a = gestureInfo.gestureType;\n\n\tif(kony.os.toNumber(a) == 3)//3 is LongPress  \n\t{\n\t\t\n\t}\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

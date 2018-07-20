@@ -25,13 +25,16 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flxLoginMain",
+        "flxLoginSocial"
+    ],
     "containerweight": 100,
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "GalaxyS5",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmLogin",
@@ -70,11 +73,11 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS5",
     "snapgridsize": 10,
     "snaptogrid": true,
     "titleBarSkin": "s0b822ccf3dc46919c53952e6da80880",

@@ -1,0 +1,70 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "69.92%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "41dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc00e33f8b1d4fbe9ddbf9eb9f1a44b1",
+    "_top_": {
+        "type": "string",
+        "value": "214dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.21%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "61.56%"
+    },
+    "children": [
+        "txtName",
+        "txtPhone",
+        "txtEmail",
+        "txtTags",
+        "txtareaNotes",
+        "btnCreateConnection"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxConnectionFill",
+    "info": null,
+    "isvisible": true,
+    "kuid": "aff6f6c30b7144a0a0acaa9cfba110e0",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmNewConnection",
+    "pf": "frmNewConnection",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}
