@@ -1,6 +1,7 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
+    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
@@ -59,7 +60,7 @@
     "isvisible": true,
     "kuid": "ddb5df07dc914d9982882ff271c940b2",
     "name": "kony.ui.Label",
-    "parent": "FBox0e62db3a21db547",
+    "parent": "flxCard",
     "pf": "FBox0e62db3a21db547",
     "tooltip": "",
     "wType": "Label",

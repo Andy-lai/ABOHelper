@@ -15,30 +15,26 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s387db6f7d514042a6a0bf61a882084e",
+    "_skin_": "sd60ccaffd3544bba35d8e37b215d935",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
-        "needAppMenu": false,
         "psp": {
             "windowSoftInputMode": 2
-        },
-        "titleBar": true
+        }
     },
     "canUpdateUI": true,
-    "children": [
-        "flxMainActivity"
-    ],
+    "children": [],
     "containerweight": 100,
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS5",
+    "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmHome",
+    "id": "frmLogin",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -48,16 +44,13 @@
         }
     },
     "iphone": {
-        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
                 "buttonClosureLeftSideView": "",
                 "buttonClosureRightSideView": "",
-                "buttonText": "",
-                "imageLeftSideView": "music.png",
-                "imageRightSideView": "zoomin.png",
-                "leftButtonText": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
                 "leftTitle": "Back",
                 "prevFormTitle": false,
                 "renderTitleText": true,
@@ -72,35 +65,20 @@
         "titleBar": true
     },
     "isvisible": true,
-    "kuid": "a4806521fe224e45a6283d38fdf1097a",
+    "kuid": "a20b4ae0988d49f9afc5119459e9ba3c",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "GalaxyS4",
-    "prevPlatform": "spaan",
+    "platform": "iphone",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS5",
+    "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "spaan": {
-        "needAppMenu": false
-    },
-    "spabb": {
-        "needAppMenu": false
-    },
-    "spaip": {
-        "needAppMenu": false
-    },
-    "spawinphone8": {
-        "needAppMenu": false
-    },
     "titleBarSkin": "s0b822ccf3dc46919c53952e6da80880",
     "titlebar": true,
     "type": 3,
-    "wType": "Form",
-    "winphone8": {
-        "needAppMenu": false
-    }
+    "wType": "Form"
 }

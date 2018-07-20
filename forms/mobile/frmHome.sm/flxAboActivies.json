@@ -1,9 +1,10 @@
 {
     "DNDConfig": null,
+    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "400dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +24,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sddaccd45fc24577b968ed1204f0a6ef",
+    "_skin_": "s740a987ad0545c7b6d621a9e09541a7",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -33,7 +34,7 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
         "sgmtActivies"
@@ -47,7 +48,7 @@
     "kuid": "e0317d108e354d2dad6e4301c7344af4",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMainActivity",
+    "parent": "flxScrollMainActivity",
     "pf": "frmHome",
     "snapgridsize": 10,
     "snaptogrid": true,

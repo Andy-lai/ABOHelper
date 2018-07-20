@@ -1,15 +1,14 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "50dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_margin_": [
         6,
@@ -23,27 +22,31 @@
         0,
         0
     ],
-    "_skin_": "s00923b4f5bc47beaedcafbc1cbd94a5",
-    "_text_": "",
+    "_skin_": "sbcba65825e54891b7eaa81272255a41",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "50dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
-    "id": "btnBuffer",
+    "focusskin": "s40979bbd6cf479db7680cca7a75c517",
+    "id": "btnNavigation",
     "info": null,
     "isvisible": true,
-    "kuid": "h7245d189cba4cf7a96fb497213b83e3",
+    "kuid": "i26f8d5bd6fc4199a3464e5c033a60bd",
     "name": "kony.ui.Button",
-    "parent": "flxMainNav",
+    "parent": "flxTitlebar",
     "pf": "frmHome",
     "wType": "Button",
     "zindex": 1

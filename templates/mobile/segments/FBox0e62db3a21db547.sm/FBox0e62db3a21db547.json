@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "55dp"
     },
     "_margin_": [
         0,
@@ -23,9 +23,10 @@
         "value": "100%"
     },
     "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblActivityTitle"
+        "flxCard"
     ],
     "clipbounds": false,
     "containerId": true,

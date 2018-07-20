@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -37,9 +37,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblMenu",
-        "lblSearch",
-        "imgAmway"
+        "imgAmway",
+        "btnNavigation",
+        "btnSearch"
     ],
     "clipbounds": true,
     "containerweight": 100,

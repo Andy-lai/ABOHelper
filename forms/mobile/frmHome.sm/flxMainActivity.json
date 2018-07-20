@@ -37,8 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "flxTitlebar",
-        "flxMainNav",
-        "flxAboActivies"
+        "flxScrollMainActivity"
     ],
     "clipbounds": true,
     "containerweight": 100,

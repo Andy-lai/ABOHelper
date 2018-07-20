@@ -27,13 +27,21 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "30%"
+        "value": "28.89%"
     },
     "_width_": {
         "type": "string",
         "value": "60dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "38.33%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "61%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
