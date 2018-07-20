@@ -4,8 +4,8 @@
     "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "5%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -32,7 +32,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "87%"
+        "value": "85%"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -50,7 +50,7 @@
     "kuid": "bb4b3ebd458d4b5e98204c1fbad5858a",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "flxSearch",
+    "parent": "flxSearchBar",
     "pf": "frmSearch",
     "securetextentry": false,
     "textinputmode": "A",
