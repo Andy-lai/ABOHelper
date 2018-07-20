@@ -1,0 +1,24 @@
+{
+    "AS_UWI_fcdb0a4e33634ba48df97aa17f7a8711": {
+        "id": "AS_UWI_fcdb0a4e33634ba48df97aa17f7a8711",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCard",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h6643b7881ba4d03b28d1f20c4f7cc9b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h0d5b6fd73bb4fd29edb5876bc6298b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCard.viewCard.flxCardBackView.setVisibility(false)\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -32,6 +32,7 @@
     "enablescrolling": true,
     "id": "flxActivityCardContainer",
     "info": null,
+    "isTemplate": true,
     "isvisible": true,
     "kuid": "j2ade289444b4230925be61342b9a487",
     "layouttype": 3,

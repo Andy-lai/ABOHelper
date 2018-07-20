@@ -1,10 +1,9 @@
 {
     "DNDConfig": null,
-    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "130dp"
+        "value": "220dp"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s921110eab2b4bbe9339fbb47218fdaf",
+    "_skin_": "sddaccd45fc24577b968ed1204f0a6ef",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -34,34 +33,25 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "btnAddUser",
-        "btnAddGroup",
-        "btnViewUser",
-        "btnPromote"
+        "Label0b2114a39f71e4f",
+        "Label0h6167d01f10340"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "defaultunit": 2,
     "enablescrolling": true,
-    "id": "flxMainNav",
+    "id": "flxCardBackView",
     "info": null,
     "isvisible": true,
-    "kuid": "b68926b4bdbb4ca5a7cdaa5a30623e75",
-    "layouttype": 2,
+    "kuid": "cecb9b75cfe2467a8af97f696ea6d14e",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxScrollMainActivity",
-    "pf": "frmHome",
-    "snapgridsize": "1",
-    "snaptogrid": false,
+    "parent": "viewCard",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "winphone8": {
-        "psp": {
-            "enableCache": false
-        }
-    },
     "zindex": 1
 }

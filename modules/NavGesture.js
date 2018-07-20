@@ -11,7 +11,7 @@ function moveAnimation(obj,leftVal){
         "delay": 0,
         "iterationCount": "1",
         "fillMode": kony.anim.FILL_MODE_FORWARDS,
-        "duration": 1,
+        "duration": 0.3,
         "direction": kony.anim.DIRECTION_NONE
     }, {
         "animationEnd": {}
