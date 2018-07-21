@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "41dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s03657b113f044059661038bcc9826bc",
+    "_text_": "Save",
+    "_top_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
+    "id": "btnSaveReminder",
+    "info": null,
+    "isvisible": true,
+    "kuid": "cd9770e9fb29497181881857953b9555",
+    "name": "kony.ui.Button",
+    "parent": "frmReminder",
+    "pf": "frmReminder",
+    "wType": "Button",
+    "zindex": 1
+}
