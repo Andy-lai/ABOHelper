@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.00%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Search...",
+    "_skin_": "s1bde72f40ee435c9b27f8be5c99a46d",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "18.28%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "searchInput",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "g0a2096979f341eda1011b0beab5dc0e",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxSearchBar",
+    "pf": "frmSearchContacts",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

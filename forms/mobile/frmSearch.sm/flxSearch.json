@@ -38,8 +38,8 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "sgmtSearchResults",
-        "flxSearchBar"
+        "flxSearchBar",
+        "sgmtSearchResults"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -51,7 +51,7 @@
     "info": null,
     "isvisible": true,
     "kuid": "i835137d42ae4ef7b21c98c6029d4bb6",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
     "parent": "frmSearch",

@@ -1,68 +1,29 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
+    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_data_": [
         [
             {
                 "lblSearchHeader": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Label"
+                    "text": ""
                 }
             },
             [
                 {
                     "lblSearchContent": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Label"
-                    }
-                },
-                {
-                    "lblSearchContent": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Label"
-                    }
-                },
-                {
-                    "lblSearchContent": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Label"
-                    }
-                }
-            ]
-        ],
-        [
-            {
-                "lblSearchHeader": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Label"
-                }
-            },
-            [
-                {
-                    "lblSearchContent": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Label"
-                    }
-                },
-                {
-                    "lblSearchContent": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Label"
-                    }
-                },
-                {
-                    "lblSearchContent": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Label"
+                        "text": ""
                     }
                 }
             ]
         ]
     ],
     "_height_": {
-        "type": "string",
-        "value": "595dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_indicator_": "none",
     "_left_": {
@@ -82,18 +43,14 @@
         0,
         0
     ],
-    "_top_": {
-        "type": "string",
-        "value": "6.97%"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "12",
+    "counter": "00",
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -124,12 +81,12 @@
     "pf": "frmSearch",
     "retainselection": false,
     "rowTemplateId": "dcf34e6fa8ed4fa1920297451ddb9780",
-    "rowcounter": 2,
+    "rowcounter": 0,
     "rowfocusskin": "s5b99cdef5064d0e9901f04b181308b4",
     "rowskin": "sb849ef166ea484ea0d37266bc5cba0d",
     "rowtemplate": "flxSearchContent",
     "screenlevelwidget": false,
-    "seccounter": 1,
+    "seccounter": 0,
     "sectionHeaderTemplateId": "cb5bac08226b4260aacbd42e7c59ee65",
     "sectionheaderskin": "s0a1ba8a075a4942a2701fd6a1e5027f",
     "sectionheadertemplate": "flxSearchHeader",

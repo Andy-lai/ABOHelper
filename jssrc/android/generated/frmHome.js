@@ -7,9 +7,7 @@ function addWidgetsfrmHome() {
         "id": "flxMainActivity",
         "isVisible": true,
         "layoutType": kony.flex.FLOW_VERTICAL,
-        "left": 0,
         "skin": "slFbox",
-        "top": "0dp",
         "width": "100.31%",
         "zIndex": 1
     }, {}, {});
@@ -69,7 +67,7 @@ function addWidgetsfrmHome() {
         "isVisible": true,
         "left": "0dp",
         "onClick": AS_Button_ae3ea02c9cf34f028eb7701aa564dea0,
-        "skin": "CopyslButtonGlossBlue0ad50756122264b",
+        "skin": "CopyslButtonGlossBlue0j049ceb63a0747",
         "text": "",
         "top": "8dp",
         "width": "50dp",
@@ -124,7 +122,7 @@ function addWidgetsfrmHome() {
         "id": "btnAddUser",
         "isVisible": true,
         "left": "15dp",
-        "onClick": AS_Button_icea28465b7b4643ae564b901cfe6cae,
+        "onClick": AS_Button_ab19e3c0a41a4d5f9cd4e499c034088a,
         "skin": "adduserskin",
         "text": "",
         "width": "60dp",
@@ -143,6 +141,7 @@ function addWidgetsfrmHome() {
         "id": "btnAddGroup",
         "isVisible": true,
         "left": "0dp",
+        "onClick": AS_Button_b4a9fcc9d3e24afbb81c97afa44a961d,
         "skin": "CopyslButtonGlossBlue0e6f8454fa2e44c",
         "text": "",
         "top": "28.89%",
@@ -162,6 +161,7 @@ function addWidgetsfrmHome() {
         "id": "btnViewUser",
         "isVisible": true,
         "left": "0dp",
+        "onClick": AS_Button_f53df0f962f7438ba92bac3eaf5f45c4,
         "skin": "CopyslButtonGlossBlue0b53242fe21764f",
         "text": "",
         "top": "28.89%",
@@ -174,12 +174,13 @@ function addWidgetsfrmHome() {
         "paddingInPixel": false
     }, {});
     var btnPromote = new kony.ui.Button({
-        "centerX": "84.99%",
+        "centerX": "85%",
         "centerY": "61%",
         "focusSkin": "CopyslButtonGlossRed0g4184fa5fe1e43",
         "height": "55dp",
         "id": "btnPromote",
         "isVisible": true,
+        "onClick": AS_Button_b5afad3813a940e89552383d4a3bb735,
         "skin": "CopyslButtonGlossBlue0f45d22bcd28f41",
         "text": "",
         "top": "33dp",
@@ -191,7 +192,87 @@ function addWidgetsfrmHome() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    flxMainNav.add(btnAddUser, btnAddGroup, btnViewUser, btnPromote);
+    var lblNewCon = new kony.ui.Label({
+        "centerX": "15%",
+        "centerY": "80%",
+        "id": "lblNewCon",
+        "isVisible": true,
+        "skin": "CopyslLabel0c659fd5e7b3248",
+        "text": "Connection",
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "width": "20%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false
+    });
+    var lblNewGrp = new kony.ui.Label({
+        "centerX": "38.30%",
+        "centerY": "80%",
+        "id": "lblNewGrp",
+        "isVisible": true,
+        "skin": "CopyslLabel0c659fd5e7b3248",
+        "text": "New Group",
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "width": "20%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false
+    });
+    var lblView = new kony.ui.Label({
+        "centerX": "61.60%",
+        "centerY": "80%",
+        "id": "lblView",
+        "isVisible": true,
+        "skin": "CopyslLabel0c659fd5e7b3248",
+        "text": "View",
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "width": "10%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false
+    });
+    var lblPromotions = new kony.ui.Label({
+        "centerX": "86.24%",
+        "centerY": "80%",
+        "id": "lblPromotions",
+        "isVisible": true,
+        "skin": "CopyslLabel0c659fd5e7b3248",
+        "text": "Promotions",
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "width": "20%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false
+    });
+    flxMainNav.add(btnAddUser, btnAddGroup, btnViewUser, btnPromote, lblNewCon, lblNewGrp, lblView, lblPromotions);
     var flxAboActivies = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
         "clipBounds": true,
@@ -212,114 +293,125 @@ function addWidgetsfrmHome() {
                     "lblActivityHeaderTitle": "Label"
                 },
                 [{
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }]
             ],
             [{
                     "lblActivityHeaderTitle": "Label"
                 },
                 [{
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }, {
-                    "Button0b05168f9f5ab42": "",
                     "btnActivityCall": "",
                     "btnActivityMsg": "",
-                    "lblActivityCardBody": ""
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
                 }]
             ]
         ],
         "groupCells": false,
         "id": "sgmtActivities",
         "isVisible": true,
-        "left": "0dp",
         "needPageIndicator": true,
         "pageOffDotImage": "pageoffdot.png",
         "pageOnDotImage": "pageondot.png",
         "retainSelection": false,
         "rowFocusSkin": "seg2Focus",
-        "rowSkin": "seg2Normal",
         "rowTemplate": flxActivityCardContainer,
         "scrollingEvents": {},
         "sectionHeaderSkin": "sliPhoneSegmentHeader",
         "sectionHeaderTemplate": flxActivityHeader,
         "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
-        "separatorColor": "00000055",
-        "separatorRequired": true,
-        "separatorThickness": 3,
+        "separatorRequired": false,
+        "separatorThickness": 0,
         "showScrollbars": false,
-        "top": "0dp",
         "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
         "widgetDataMap": {
-            "Button0b05168f9f5ab42": "Button0b05168f9f5ab42",
             "btnActivityCall": "btnActivityCall",
             "btnActivityMsg": "btnActivityMsg",
+            "btnReminder": "btnReminder",
             "flxActivityCard": "flxActivityCard",
             "flxActivityCardContainer": "flxActivityCardContainer",
             "flxActivityHeader": "flxActivityHeader",
             "flxActivityOptions": "flxActivityOptions",
             "lblActivityCardBody": "lblActivityCardBody",
-            "lblActivityHeaderTitle": "lblActivityHeaderTitle"
+            "lblActivityHeaderTitle": "lblActivityHeaderTitle",
+            "lblUserId": "lblUserId"
         },
         "width": "100%",
         "zIndex": 1
@@ -328,7 +420,24 @@ function addWidgetsfrmHome() {
         "paddingInPixel": false
     }, {});
     flxAboActivies.add(sgmtActivities);
-    flxScrollMainActivity.add(flxMainNav, flxAboActivies);
+    var Button0da380c05206d40 = new kony.ui.Button({
+        "focusSkin": "slButtonGlossRed",
+        "height": "50dp",
+        "id": "Button0da380c05206d40",
+        "isVisible": true,
+        "left": "54dp",
+        "skin": "slButtonGlossBlue",
+        "text": "Button",
+        "top": "0dp",
+        "width": "260dp",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    flxScrollMainActivity.add(flxMainNav, flxAboActivies, Button0da380c05206d40);
     flxMainActivity.add(flxTitlebar, flxScrollMainActivity);
     var flxNavHome = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
@@ -355,22 +464,20 @@ function addWidgetsfrmHome() {
         "layoutType": kony.flex.FREE_FORM,
         "left": "1dp",
         "skin": "CopyslFbox0cc76cc1409c046",
-        "top": "10dp",
+        "top": "16dp",
         "width": "150dp",
         "zIndex": 1
     }, {}, {});
     flxProfileimgContainer.setDefaultUnit(kony.flex.DP);
     var imgProfile = new kony.ui.Image2({
-        "centerX": "50%",
+        "centerX": "50.00%",
         "centerY": "50%",
-        "height": "80%",
         "id": "imgProfile",
         "isVisible": true,
         "left": "0dp",
         "skin": "slImage0h7eff5c80e5749",
-        "src": "imagedrag.png",
+        "src": "usermanlogo.png",
         "top": "0dp",
-        "width": "80%",
         "zIndex": 1
     }, {
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
@@ -378,124 +485,60 @@ function addWidgetsfrmHome() {
         "paddingInPixel": false
     }, {});
     flxProfileimgContainer.add(imgProfile);
-    var flxPvBv = new kony.ui.FlexContainer({
-        "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+    var FlexContainer0ed9bbd01114640 = new kony.ui.FlexContainer({
+        "centerX": "49.96%",
         "clipBounds": true,
-        "id": "flxPvBv",
+        "height": "220dp",
+        "id": "FlexContainer0ed9bbd01114640",
         "isVisible": true,
-        "layoutType": kony.flex.FLOW_HORIZONTAL,
-        "left": "0dp",
+        "layoutType": kony.flex.FLOW_VERTICAL,
+        "left": "-7dp",
         "skin": "slFbox",
         "top": "0dp",
         "width": "100%",
         "zIndex": 1
     }, {}, {});
-    flxPvBv.setDefaultUnit(kony.flex.DP);
-    var lblBv = new kony.ui.Label({
-        "centerX": 0,
-        "id": "lblBv",
-        "isVisible": true,
-        "left": "0dp",
-        "skin": "slLabel0e2af7e8c1e1a42",
-        "text": "BV",
-        "textStyle": {
-            "letterSpacing": 0,
-            "strikeThrough": false
-        },
-        "top": "0dp",
-        "width": kony.flex.USE_PREFFERED_SIZE,
-        "zIndex": 1
-    }, {
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-        "padding": [80, 0, 0, 0],
-        "paddingInPixel": false
-    }, {
-        "textCopyable": false
-    });
-    var lblPv = new kony.ui.Label({
-        "centerX": 0,
-        "id": "lblPv",
-        "isVisible": true,
-        "left": "0dp",
-        "skin": "slLabel0e2af7e8c1e1a42",
-        "text": "PV",
-        "textStyle": {
-            "letterSpacing": 0,
-            "strikeThrough": false
-        },
-        "top": "0dp",
-        "width": kony.flex.USE_PREFFERED_SIZE,
-        "zIndex": 1
-    }, {
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-        "padding": [29, 0, 0, 0],
-        "paddingInPixel": false
-    }, {
-        "textCopyable": false
-    });
-    flxPvBv.add(lblBv, lblPv);
-    var lblBonus = new kony.ui.Label({
+    FlexContainer0ed9bbd01114640.setDefaultUnit(kony.flex.DP);
+    var Button0i501679fa16648 = new kony.ui.Button({
         "centerX": "50%",
-        "id": "lblBonus",
+        "focusSkin": "slButtonGlossRed",
+        "height": "50dp",
+        "id": "Button0i501679fa16648",
         "isVisible": true,
-        "left": "0dp",
-        "skin": "slLabel0e2af7e8c1e1a42",
-        "text": "Bonus",
-        "textStyle": {
-            "letterSpacing": 0,
-            "strikeThrough": false
-        },
-        "top": "0dp",
-        "width": kony.flex.USE_PREFFERED_SIZE,
-        "zIndex": 1
-    }, {
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-        "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
-    }, {
-        "textCopyable": false
-    });
-    var segOptions = new kony.ui.SegmentedUI2({
-        "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
-        "data": [{
-            "lblNavItem": "My Dashboard"
-        }, {
-            "lblNavItem": "My Remainders"
-        }, {
-            "lblNavItem": "Help"
-        }, {
-            "lblNavItem": "Logout"
-        }],
-        "groupCells": false,
-        "id": "segOptions",
-        "isVisible": true,
-        "left": "0dp",
-        "needPageIndicator": true,
-        "pageOffDotImage": "pageoffdot.png",
-        "pageOnDotImage": "pageondot.png",
-        "retainSelection": false,
-        "rowFocusSkin": "seg0f886d2f4535541",
-        "rowSkin": "Copyseg0a40457c6ae4c4c",
-        "rowTemplate": flxNav,
-        "scrollingEvents": {},
-        "sectionHeaderSkin": "sliPhoneSegmentHeader0i8b5539ea80140",
-        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
-        "separatorColor": "00000032",
-        "separatorRequired": true,
-        "separatorThickness": 1,
-        "showScrollbars": false,
-        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
-        "widgetDataMap": {
-            "flxNav": "flxNav",
-            "lblNavItem": "lblNavItem"
-        },
+        "left": "3dp",
+        "onClick": AS_Button_eae5b12a30984e5683572620a5fbfa60,
+        "skin": "CopyslButtonGlossBlue0d7fbee1ace174a",
+        "text": "My Dashboard",
+        "top": "30dp",
         "width": "100%",
         "zIndex": 1
     }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    flxNavHome.add(flxProfileimgContainer, flxPvBv, lblBonus, segOptions);
+    var CopyButton0j8e35cc3f4c94a = new kony.ui.Button({
+        "centerX": "49.96%",
+        "focusSkin": "slButtonGlossRed",
+        "height": "50dp",
+        "id": "CopyButton0j8e35cc3f4c94a",
+        "isVisible": true,
+        "left": "3dp",
+        "onClick": AS_Button_ca21bd4b30ba4b04bb6b3ce91e5867d9,
+        "skin": "CopyslButtonGlossBlue0d7fbee1ace174a",
+        "text": "Logout",
+        "top": "10dp",
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    FlexContainer0ed9bbd01114640.add(Button0i501679fa16648, CopyButton0j8e35cc3f4c94a);
+    flxNavHome.add(flxProfileimgContainer, FlexContainer0ed9bbd01114640);
     frmHome.add(flxMainActivity, flxNavHome);
 };
 

@@ -44,6 +44,7 @@ function addWidgetsfrmNewConnection() {
         "id": "btnImportCustomer",
         "isVisible": true,
         "left": "43dp",
+        "onClick": AS_Button_ffb577bcad1e4a11812f759f02e333bf,
         "skin": "CopyslButtonGlossBlue0af9114a8098f48",
         "text": "Customer",
         "top": "42dp",
@@ -95,10 +96,10 @@ function addWidgetsfrmNewConnection() {
     }, {
         "textCopyable": false
     });
-    flxConnectionImport.add(btnImportProspect, btnImportCustomer, lblProspect, lblCustomer);
     var lblImportAs = new kony.ui.Label({
-        "centerX": "50%",
-        "centerY": "10%",
+        "centerX": "50.03%",
+        "centerY": "15%",
+        "height": "50dp",
         "id": "lblImportAs",
         "isVisible": true,
         "left": "137dp",
@@ -108,8 +109,8 @@ function addWidgetsfrmNewConnection() {
             "letterSpacing": 0,
             "strikeThrough": false
         },
-        "top": "50dp",
-        "width": kony.flex.USE_PREFFERED_SIZE,
+        "top": "20dp",
+        "width": "100dp",
         "zIndex": 1
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -118,6 +119,7 @@ function addWidgetsfrmNewConnection() {
     }, {
         "textCopyable": false
     });
+    flxConnectionImport.add(btnImportProspect, btnImportCustomer, lblProspect, lblCustomer, lblImportAs);
     var flxConnectionFill = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "centerX": "50.21%",
@@ -250,7 +252,6 @@ function addWidgetsfrmNewConnection() {
         "left": "32dp",
         "numberOfVisibleLines": 3,
         "skin": "CopyslTextArea0ebf62a034d714c",
-        "text": "TextArea2",
         "textInputMode": constants.TEXTAREA_INPUT_MODE_ANY,
         "top": "207dp",
         "width": "260dp",
@@ -268,6 +269,7 @@ function addWidgetsfrmNewConnection() {
         "id": "btnCreateConnection",
         "isVisible": true,
         "left": "30dp",
+        "onClick": AS_Button_b604247152bd4f3482e4c2ea8d3d5037,
         "skin": "CopyslButtonGlossBlue0i36d9816528649",
         "text": "Create",
         "top": "353dp",
@@ -280,7 +282,7 @@ function addWidgetsfrmNewConnection() {
         "paddingInPixel": false
     }, {});
     flxConnectionFill.add(txtName, txtPhone, txtEmail, txtTags, txtareaNotes, btnCreateConnection);
-    frmNewConnection.add(flxConnectionImport, lblImportAs, flxConnectionFill);
+    frmNewConnection.add(flxConnectionImport, flxConnectionFill);
 };
 
 function frmNewConnectionGlobals() {
@@ -290,7 +292,7 @@ function frmNewConnectionGlobals() {
         "id": "frmNewConnection",
         "layoutType": kony.flex.FREE_FORM,
         "needAppMenu": true,
-        "skin": "slForm"
+        "skin": "CopyslForm0e7dacda0a08847"
     }, {
         "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
         "layoutType": kony.flex.FREE_FORM,

@@ -46,6 +46,7 @@
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
     "id": "btnCreateConnection",
+    "ide_onClick": "AS_Button_b604247152bd4f3482e4c2ea8d3d5037",
     "info": null,
     "isvisible": true,
     "kuid": "h8b9fd542b1a4186a18207dce19deed5",

@@ -1,4 +1,7 @@
 {
+  "android": {
+    "font_name": "FontAwesome"
+  },
   "background_color": "ffffffff",
   "bg_type": "one",
   "border_color": "000000ff",

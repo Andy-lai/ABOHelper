@@ -1,0 +1,24 @@
+{
+    "AS_Form_ic8ff0b49d144a47ac0b95197a207ac6": {
+        "id": "AS_Form_ic8ff0b49d144a47ac0b95197a207ac6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSearchContacts",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b01747d3e1ca464e8686ef1ed6757b67"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jca776839a11465db9aa8d4b0a4e0f34",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "ImportContacts();\nfrmSearchContacts.btnSearch.onClick = search_contacts;\nfrmSearchContacts.btnImport.onClick = add_contacts;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

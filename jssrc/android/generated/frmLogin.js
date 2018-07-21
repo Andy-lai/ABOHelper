@@ -119,14 +119,14 @@ function addWidgetsfrmLogin() {
     flxUnderlinePassword.setDefaultUnit(kony.flex.DP);
     flxUnderlinePassword.add();
     var btnLogin = new kony.ui.Button({
-        "centerX": "50%",
-        "centerY": "80%",
+        "centerX": "50.00%",
+        "centerY": "79.96%",
         "focusSkin": "slButtonGlossRed",
         "height": "50dp",
         "id": "btnLogin",
         "isVisible": true,
         "left": "49dp",
-        "onClick": AS_Button_cd1f7a674b8c47fe924db2c456d3f634,
+        "onClick": AS_Button_ba3a520a824742e4ac9f7c7e8b1ef9be,
         "skin": "CopyslButtonGlossBlue0e6a17700111844",
         "text": "Login",
         "top": "213dp",
@@ -202,7 +202,7 @@ function frmLoginGlobals() {
         "id": "frmLogin",
         "layoutType": kony.flex.FREE_FORM,
         "needAppMenu": true,
-        "skin": "slForm"
+        "skin": "CopyslForm0b8b8935fd32141"
     }, {
         "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
         "layoutType": kony.flex.FREE_FORM,

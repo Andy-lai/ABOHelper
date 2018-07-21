@@ -37,12 +37,13 @@
     "canUpdateUI": true,
     "children": [
         "flxProfileimgContainer",
-        "flxPvBv",
-        "lblBonus",
-        "segOptions"
+        "FlexContainer0ed9bbd01114640"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "disabledSkins": {
+        "focusSkin": "s0a81fd175c24f3db126032f10df5549"
+    },
     "enablescrolling": true,
     "id": "flxNavHome",
     "info": null,

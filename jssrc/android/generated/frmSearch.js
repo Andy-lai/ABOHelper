@@ -10,7 +10,7 @@ function addWidgetsfrmSearch() {
         "horizontalScrollIndicator": true,
         "id": "flxSearch",
         "isVisible": true,
-        "layoutType": kony.flex.FREE_FORM,
+        "layoutType": kony.flex.FLOW_VERTICAL,
         "left": "0dp",
         "pagingEnabled": false,
         "scrollDirection": kony.flex.SCROLL_VERTICAL,
@@ -20,70 +20,10 @@ function addWidgetsfrmSearch() {
         "zIndex": 1
     }, {}, {});
     flxSearch.setDefaultUnit(kony.flex.DP);
-    var sgmtSearchResults = new kony.ui.SegmentedUI2({
-        "autogrowMode": kony.flex.AUTOGROW_NONE,
-        "data": [
-            [{
-                    "lblSearchHeader": "Label"
-                },
-                [{
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
-                }]
-            ],
-            [{
-                    "lblSearchHeader": "Label"
-                },
-                [{
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
-                }]
-            ]
-        ],
-        "groupCells": false,
-        "height": "595dp",
-        "id": "sgmtSearchResults",
-        "isVisible": true,
-        "left": "0dp",
-        "needPageIndicator": true,
-        "pageOffDotImage": "pageoffdot.png",
-        "pageOnDotImage": "pageondot.png",
-        "retainSelection": false,
-        "rowFocusSkin": "seg2Focus",
-        "rowSkin": "seg2Normal",
-        "rowTemplate": flxSearchContent,
-        "scrollingEvents": {},
-        "sectionHeaderSkin": "sliPhoneSegmentHeader",
-        "sectionHeaderTemplate": flxSearchHeader,
-        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
-        "separatorColor": "64646400",
-        "separatorRequired": true,
-        "separatorThickness": 1,
-        "showScrollbars": false,
-        "top": "6.97%",
-        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
-        "widgetDataMap": {
-            "flxSearchContent": "flxSearchContent",
-            "flxSearchHeader": "flxSearchHeader",
-            "lblSearchContent": "lblSearchContent",
-            "lblSearchHeader": "lblSearchHeader"
-        },
-        "width": "100%",
-        "zIndex": 1
-    }, {
-        "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
-    }, {});
     var flxSearchBar = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "55dp",
+        "height": "70dp",
         "id": "flxSearchBar",
         "isVisible": true,
         "layoutType": kony.flex.FLOW_HORIZONTAL,
@@ -96,10 +36,12 @@ function addWidgetsfrmSearch() {
     flxSearchBar.setDefaultUnit(kony.flex.DP);
     var searchInput = new kony.ui.TextBox2({
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "height": "55dp",
         "id": "searchInput",
         "isVisible": true,
         "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
         "left": "0.00%",
+        "maxTextLength": null,
         "placeholder": "Search...",
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
@@ -134,7 +76,50 @@ function addWidgetsfrmSearch() {
         "paddingInPixel": false
     }, {});
     flxSearchBar.add(searchInput, btnSearch);
-    flxSearch.add(sgmtSearchResults, flxSearchBar);
+    var sgmtSearchResults = new kony.ui.SegmentedUI2({
+        "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+        "data": [
+            [{
+                    "lblSearchHeader": ""
+                },
+                [{
+                    "lblSearchContent": ""
+                }]
+            ]
+        ],
+        "groupCells": false,
+        "id": "sgmtSearchResults",
+        "isVisible": true,
+        "left": "0dp",
+        "needPageIndicator": true,
+        "pageOffDotImage": "pageoffdot.png",
+        "pageOnDotImage": "pageondot.png",
+        "retainSelection": false,
+        "rowFocusSkin": "seg2Focus",
+        "rowSkin": "seg2Normal",
+        "rowTemplate": flxSearchContent,
+        "scrollingEvents": {},
+        "sectionHeaderSkin": "sliPhoneSegmentHeader",
+        "sectionHeaderTemplate": flxSearchHeader,
+        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+        "separatorColor": "64646400",
+        "separatorRequired": true,
+        "separatorThickness": 1,
+        "showScrollbars": false,
+        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
+        "widgetDataMap": {
+            "flxSearchContent": "flxSearchContent",
+            "flxSearchHeader": "flxSearchHeader",
+            "lblSearchContent": "lblSearchContent",
+            "lblSearchHeader": "lblSearchHeader"
+        },
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    flxSearch.add(flxSearchBar, sgmtSearchResults);
     frmSearch.add(flxSearch);
 };
 

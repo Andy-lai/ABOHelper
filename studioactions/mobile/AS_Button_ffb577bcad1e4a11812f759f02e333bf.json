@@ -1,0 +1,24 @@
+{
+    "AS_Button_ffb577bcad1e4a11812f759f02e333bf": {
+        "id": "AS_Button_ffb577bcad1e4a11812f759f02e333bf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewConnection",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c13b4be660404fc89164e7453743bd68"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c1ea08bbf1f243ee84b4dad75c267744",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmSearchContacts.show()",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

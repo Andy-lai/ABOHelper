@@ -13,6 +13,12 @@
             "KUID": "c13b4be660404fc89164e7453743bd68"
         },
         "language": "js",
-        "actions": []
+        "actions": [{
+            "id": "ADD_SNIPPET__a063a921ea354a469bcdc0657896a941",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmSearchContacts.show()",
+            "parentId": null,
+            "callbackType": null
+        }]
     }
 }

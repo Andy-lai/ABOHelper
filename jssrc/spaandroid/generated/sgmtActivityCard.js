@@ -5,7 +5,7 @@ function initializesgmtActivityCard() {
         "id": "flxActivityCardContainer",
         "isVisible": true,
         "layoutType": kony.flex.FLOW_HORIZONTAL,
-        "skin": "slFbox"
+        "skin": "CopyslFbox0eeeb73e3b63146"
     }, {}, {});
     flxActivityCardContainer.setDefaultUnit(kony.flex.DP);
     var flxActivityCard = new kony.ui.FlexContainer({
@@ -28,7 +28,7 @@ function initializesgmtActivityCard() {
         "left": "0dp",
         "skin": "CopyslLabel0d49d2c9f8d684c",
         "top": "0dp",
-        "width": kony.flex.USE_PREFFERED_SIZE,
+        "width": "100%",
         "zIndex": 1
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -38,7 +38,24 @@ function initializesgmtActivityCard() {
         "renderAsAnchor": false,
         "textCopyable": false
     });
-    flxActivityCard.add(lblActivityCardBody);
+    var lblUserId = new kony.ui.Label({
+        "id": "lblUserId",
+        "isVisible": true,
+        "left": "273dp",
+        "skin": "CopyslLabel0b3135437572645",
+        "text": "Label",
+        "top": "39dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "renderAsAnchor": false,
+        "textCopyable": false
+    });
+    flxActivityCard.add(lblActivityCardBody, lblUserId);
     var flxActivityOptions = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
@@ -55,12 +72,13 @@ function initializesgmtActivityCard() {
     }, {}, {});
     flxActivityOptions.setDefaultUnit(kony.flex.DP);
     var btnActivityCall = new kony.ui.Button({
-        "centerY": "50%",
-        "focusSkin": "slButtonGlossRed",
+        "centerY": "51.44%",
+        "focusSkin": "CopyslButtonGlossRed0d8e7f169647647",
         "id": "btnActivityCall",
         "isVisible": true,
         "left": "0%",
-        "skin": "CopyslButtonGlossBlue0fbd5d4c1d37340",
+        "onClick": AS_Button_hf10e0fbe60e441d8546041d04c49345,
+        "skin": "Copyadduserskin0e144989b8bfd42",
         "text": "",
         "top": "0dp",
         "width": "33%",
@@ -73,11 +91,11 @@ function initializesgmtActivityCard() {
     }, {});
     var btnActivityMsg = new kony.ui.Button({
         "centerY": "50%",
-        "focusSkin": "slButtonGlossRed",
+        "focusSkin": "CopyslButtonGlossRed0d637c979722247",
         "id": "btnActivityMsg",
         "isVisible": true,
         "left": "0dp",
-        "skin": "CopyslButtonGlossBlue0i6694ae3dcae42",
+        "skin": "Copyadduserskin0e75b63f617e244",
         "text": "",
         "top": "0dp",
         "width": "33%",
@@ -88,13 +106,13 @@ function initializesgmtActivityCard() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    var Button0b05168f9f5ab42 = new kony.ui.Button({
+    var btnReminder = new kony.ui.Button({
         "centerY": "50%",
-        "focusSkin": "slButtonGlossRed",
-        "id": "Button0b05168f9f5ab42",
+        "focusSkin": "CopyslButtonGlossRed0be22c110886044",
+        "id": "btnReminder",
         "isVisible": true,
         "left": "0dp",
-        "skin": "CopyslButtonGlossBlue0heb7e705f87a4b",
+        "skin": "Copyadduserskin0aa2aa00420b04f",
         "text": "",
         "top": "0dp",
         "width": "33%",
@@ -105,6 +123,6 @@ function initializesgmtActivityCard() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    flxActivityOptions.add(btnActivityCall, btnActivityMsg, Button0b05168f9f5ab42);
+    flxActivityOptions.add(btnActivityCall, btnActivityMsg, btnReminder);
     flxActivityCardContainer.add(flxActivityCard, flxActivityOptions);
 }

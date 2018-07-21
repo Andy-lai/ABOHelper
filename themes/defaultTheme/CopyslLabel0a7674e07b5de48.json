@@ -1,7 +1,7 @@
 {
   "android": {
-    "font_name": "Helvetica",
-    "font_size": 150,
+    "font_name": "FontAwesome",
+    "font_size": 125,
     "isForked": false
   },
   "background_color": "00000000",
@@ -11,72 +11,87 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "fontSizeInPx": false,
-  "font_color": "424242ff",
+  "font_color": "ffffffff",
   "font_name": "Helvetica",
-  "font_size": 150,
+  "font_size": 125,
   "font_style": "normal",
   "font_weight": "bold",
   "ipad": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "iphone": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_size": 150,
+    "font_name": "GenericMonospace",
+    "font_size": 125,
     "isForked": false
   },
   "kuid": "saf83feff1fd4fc2908da4c4226ca724",
   "spaan": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "spaandroidtablet": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "spabb": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "spaip": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "spaipad": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "spawindowstablet": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "spawinphone8": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "tabrcandroid": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "wType": "Label",
   "watchos": {
-    "font_size": 150,
+    "font_name": "Helvetica",
+    "font_size": 125,
     "isForked": false
   },
   "windows8": {
-    "font_size": 150,
+    "font_name": "GenericMonospace",
+    "font_size": 125,
     "isForked": false
   },
   "winphone8": {
-    "font_size": 150,
+    "font_name": "GenericMonospace",
+    "font_size": 125,
     "isForked": false
   }
 }

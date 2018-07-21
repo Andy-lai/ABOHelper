@@ -1,0 +1,24 @@
+{
+    "AS_Form_g3bb309e366a49bb83b71fe6e8ec144f": {
+        "id": "AS_Form_g3bb309e366a49bb83b71fe6e8ec144f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmView",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c954e77479e34a42a4a198ae422f77b5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e9e5c37f70f34ca79bbcd56fb4b44746",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//frmView.sgmtConnectionViewLeft.rowTemplate.setGestureRecognizer(3,x,ConnectionGesture)\n//frmView.sgmtConnectionViewRight.rowTemplate.setGestureRecognizer(3,x,ConnectionGesture)\n\nfunction viewConnection() {\n  var categories = {'Users': Users};\n  dataleft = [];\n  dataright = [];\n\t\n  for(var category in categories){\n    var i = 0;\n    for(var item of categories[category]){\n      if(i%2 != 1)\n      {//lblUserName.opacity = 0;\n        dataleft.push({lblUserName: item.firstName, lbltags: item.tags, imgRem: \"reminderlogo.png\", lblRem: \"rem\", imgTags: \"taglogo.png\"\n                       , imgUserView: \"usermanlogo.png\"});\n      }else\n        dataright.push({lblUserName: item.firstName, lbltags: item.tags, imgRem: \"reminderlogo.png\", lblRem: \"rem\", imgTags: \"taglogo.png\"\n                        , imgUserView: \"usermanlogo.png\"});\n      i++;\n    }\n  } \n\n  frmView.sgmtConnectionViewLeft.setData(dataleft);\n  frmView.sgmtConnectionViewRight.setData(dataright);\n}\nviewConnection();\n\nfunction ConnectionGesture(widget,gestures,context)\n{\n  var index = {\n    sectionIndex: context.sectionIndex,\n    rowIndex:context.rowIndex\n  }\n  var aniConfig ={}\n  \n  var aniValues = {}\n  \n  var aniObj = kony\n  \n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,7 +1,8 @@
 function initializesgmtActivityHeader() {
     flxActivityHeader = new kony.ui.FlexContainer({
-        "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
+        "height": "40dp",
         "id": "flxActivityHeader",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,
@@ -9,11 +10,14 @@ function initializesgmtActivityHeader() {
     }, {}, {});
     flxActivityHeader.setDefaultUnit(kony.flex.DP);
     var lblActivityHeaderTitle = new kony.ui.Label({
+        "centerX": "15%",
+        "centerY": "50%",
+        "height": "25dp",
         "id": "lblActivityHeaderTitle",
         "isVisible": true,
         "left": "10dp",
         "skin": "CopyslLabel0a4b27fd0fa4f42",
-        "text": "Label",
+        "text": "Heading",
         "textStyle": {
             "letterSpacing": 0,
             "strikeThrough": false

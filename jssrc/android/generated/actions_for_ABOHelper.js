@@ -9,17 +9,71 @@ function AS_FlexContainer_hab50acbe68e4ae8a76a1ffced9c7a7c(eventobject) {
     }
 }
 
+function AS_Button_ab19e3c0a41a4d5f9cd4e499c034088a(eventobject) {
+    frmNewConnection.show();
+}
+
 function AS_Button_ae3ea02c9cf34f028eb7701aa564dea0(eventobject) {
     frmSearch.show();
 }
 
 function AS_Button_afac160d8587403390e8bbb2892ce709(eventobject, x, y) {}
 
+function AS_Button_b4a9fcc9d3e24afbb81c97afa44a961d(eventobject) {
+    frmNewGroup.show();
+}
+
+function AS_Button_b5afad3813a940e89552383d4a3bb735(eventobject) {
+    frmPromotions.show();
+}
+
+function AS_Button_b604247152bd4f3482e4c2ea8d3d5037(eventobject) {
+    saveUserInformation.call(this, null, null, null, null, null);
+    frmHome.show();
+}
+
+function AS_Button_ba3a520a824742e4ac9f7c7e8b1ef9be(eventobject) {
+    frmHome.show();
+}
+
+function AS_Button_ca21bd4b30ba4b04bb6b3ce91e5867d9(eventobject) {
+    frmLogin.show();
+}
+
 function AS_Button_cd1f7a674b8c47fe924db2c456d3f634(eventobject) {
     frmHome.show();
 }
 
-function AS_Button_e532fbb3a8ab4d5399946dc0bcf32020(eventobject) {}
+function AS_Button_e532fbb3a8ab4d5399946dc0bcf32020(eventobject) {
+    frmSearchContacts.show()
+}
+
+function AS_Button_e5a80a12fc3e4b82aac0577a792f89ab(eventobject) {
+    frmHome.show();
+}
+
+function AS_Button_eae5b12a30984e5683572620a5fbfa60(eventobject) {
+    frmDashboard.show();
+}
+
+function AS_Button_f53df0f962f7438ba92bac3eaf5f45c4(eventobject) {
+    frmView.show();
+}
+
+function AS_Button_f801c68b036d4c0eb8a63340011e3cbe(eventobject) {}
+
+function AS_Button_fe507ad4490e4dd5a265c97a6477ef29(eventobject) {
+    var groups = Groups;
+    for (groupObj of groups) {
+        if (groupObj.group.equals(txtNewGroup.text)) {
+            showConfirmationPopup("A group with this name already exists.");
+        }
+    }
+}
+
+function AS_Button_ffb577bcad1e4a11812f759f02e333bf(eventobject) {
+    frmSearchContacts.show()
+}
 
 function AS_Button_gb101c5509434c029348774becf4da44(eventobject) {
     moveAnimation(frmHome.flxNavHome, "0dp");
@@ -28,6 +82,11 @@ function AS_Button_gb101c5509434c029348774becf4da44(eventobject) {
 
 function AS_Button_gf488766b3b94d78ac885ed5aae553a9(eventobject) {
     return searchOnClick.call(this);
+}
+
+function AS_Button_hf10e0fbe60e441d8546041d04c49345(eventobject, context) {
+    // var id = frmHome.sgmtActivities[frmHome.sgmtActivities.selectedRowIndex];
+    // alert(id);
 }
 
 function AS_Button_icea28465b7b4643ae564b901cfe6cae(eventobject) {
@@ -96,7 +155,56 @@ function AS_Form_c766be6e6a604c73b8a1778617c91ed4(eventobject) {
 
 function AS_Form_efb4e1aa45814c669af70fd868459e30(eventobject) {}
 
+function AS_Form_g3bb309e366a49bb83b71fe6e8ec144f(eventobject) {
+    //frmView.sgmtConnectionViewLeft.rowTemplate.setGestureRecognizer(3,x,ConnectionGesture)
+    //frmView.sgmtConnectionViewRight.rowTemplate.setGestureRecognizer(3,x,ConnectionGesture)
+    function viewConnection() {
+        var categories = {
+            'Users': Users
+        };
+        dataleft = [];
+        dataright = [];
+        for (var category in categories) {
+            var i = 0;
+            for (var item of categories[category]) {
+                if (i % 2 != 1) { //lblUserName.opacity = 0;
+                    dataleft.push({
+                        lblUserName: item.firstName,
+                        lbltags: item.tags,
+                        imgRem: "reminderlogo.png",
+                        lblRem: "rem",
+                        imgTags: "taglogo.png",
+                        imgUserView: "usermanlogo.png"
+                    });
+                } else dataright.push({
+                    lblUserName: item.firstName,
+                    lbltags: item.tags,
+                    imgRem: "reminderlogo.png",
+                    lblRem: "rem",
+                    imgTags: "taglogo.png",
+                    imgUserView: "usermanlogo.png"
+                });
+                i++;
+            }
+        }
+        frmView.sgmtConnectionViewLeft.setData(dataleft);
+        frmView.sgmtConnectionViewRight.setData(dataright);
+    }
+    viewConnection();
+
+    function ConnectionGesture(widget, gestures, context) {
+        var index = {
+            sectionIndex: context.sectionIndex,
+            rowIndex: context.rowIndex
+        }
+        var aniConfig = {}
+        var aniValues = {}
+        var aniObj = kony
+    }
+}
+
 function AS_Form_h9f5f288a2d94089bb67ab4657147cf6(eventobject) {
+    setActivitiesData();
     frmHome.flxNavHome.left = "-100%"
 
     function formGesture(widgetID, gestureInfo) {
@@ -130,7 +238,7 @@ function AS_Form_h9f5f288a2d94089bb67ab4657147cf6(eventobject) {
             }
         }
         var index = {
-            sectionIndex: 0,
+            sectionIndex: context.sectionIndex,
             rowIndex: context.rowIndex,
         }; //context.rowIndex
         var a = gestureInfo.gestureType;
@@ -169,6 +277,20 @@ function AS_Form_h9f5f288a2d94089bb67ab4657147cf6(eventobject) {
         alert(typeof err);
         alert("error in function callbackSingleTapGesture: " + err.message);
     }
+}
+
+function AS_Form_ic8ff0b49d144a47ac0b95197a207ac6(eventobject) {
+    ImportContacts();
+    frmSearchContacts.btnSearch.onClick = search_contacts;
+    frmSearchContacts.btnImport.onClick = add_contacts;
+}
+
+function AS_Segment_ee4ccb503f994e599498978695c14fc4(eventobject, sectionNumber, rowNumber) {
+    frmUserProfile.show();
+}
+
+function AS_Segment_g860aaf354694fff8d1cefeb08f0721a(eventobject, sectionNumber, rowNumber) {
+    frmUserProfile.show();
 }
 
 function AS_UWI_fcdb0a4e33634ba48df97aa17f7a8711(eventobject) {

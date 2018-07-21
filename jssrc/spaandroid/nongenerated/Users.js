@@ -69,7 +69,7 @@ var Users = [{
         "purchased_on": "2017-05-23",
         "product_name": "Artistry Hyrating Lotion"
     }, {
-        "purchased_on": "2017-10-20",
+        "purchased_on": "2018-06-20",
         "product_name": "Artistry Youth Extend"
     }, {
         "purchased_on": "2017-01-02",
@@ -129,7 +129,7 @@ var Users = [{
     "email": "ermamartinez@earthwax.com",
     "groups": ["interested", "hyderabad", "nutrition"],
     "products": [{
-        "purchased_on": "2017-03-15",
+        "purchased_on": "2018-04-15",
         "product_name": "Satinique Scalp Tonic"
     }, {
         "purchased_on": "2017-02-04",

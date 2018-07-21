@@ -7,9 +7,7 @@ function addWidgetsfrmHome() {
         "id": "flxMainActivity",
         "isVisible": true,
         "layoutType": kony.flex.FLOW_VERTICAL,
-        "left": 0,
         "skin": "slFbox",
-        "top": "0dp",
         "width": "100.31%",
         "zIndex": 1
     }, {}, {});
@@ -124,7 +122,7 @@ function addWidgetsfrmHome() {
         "id": "btnAddUser",
         "isVisible": true,
         "left": "15dp",
-        "onClick": AS_Button_icea28465b7b4643ae564b901cfe6cae,
+        "onClick": AS_Button_ab19e3c0a41a4d5f9cd4e499c034088a,
         "skin": "adduserskin",
         "text": "",
         "width": "60dp",
@@ -137,12 +135,13 @@ function addWidgetsfrmHome() {
     }, {});
     var btnAddGroup = new kony.ui.Button({
         "centerX": "38.33%",
-        "centerY": "61%",
+        "centerY": "61.79%",
         "focusSkin": "CopyslButtonGlossRed0b9e7ee271ba948",
         "height": "55dp",
         "id": "btnAddGroup",
         "isVisible": true,
         "left": "0dp",
+        "onClick": AS_Button_b4a9fcc9d3e24afbb81c97afa44a961d,
         "skin": "CopyslButtonGlossBlue0e6f8454fa2e44c",
         "text": "",
         "top": "28.89%",
@@ -162,6 +161,7 @@ function addWidgetsfrmHome() {
         "id": "btnViewUser",
         "isVisible": true,
         "left": "0dp",
+        "onClick": AS_Button_f53df0f962f7438ba92bac3eaf5f45c4,
         "skin": "CopyslButtonGlossBlue0b53242fe21764f",
         "text": "",
         "top": "28.89%",
@@ -180,6 +180,7 @@ function addWidgetsfrmHome() {
         "height": "55dp",
         "id": "btnPromote",
         "isVisible": true,
+        "onClick": AS_Button_b5afad3813a940e89552383d4a3bb735,
         "skin": "CopyslButtonGlossBlue0f45d22bcd28f41",
         "text": "",
         "top": "33dp",
@@ -207,70 +208,130 @@ function addWidgetsfrmHome() {
     flxAboActivies.setDefaultUnit(kony.flex.DP);
     var sgmtActivities = new kony.ui.SegmentedUI2({
         "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
-        "data": [{
-            "Button0b05168f9f5ab42": "",
-            "btnActivityCall": "",
-            "btnActivityMsg": "",
-            "lblActivityCardBody": ""
-        }, {
-            "Button0b05168f9f5ab42": "",
-            "btnActivityCall": "",
-            "btnActivityMsg": "",
-            "lblActivityCardBody": ""
-        }, {
-            "Button0b05168f9f5ab42": "",
-            "btnActivityCall": "",
-            "btnActivityMsg": "",
-            "lblActivityCardBody": ""
-        }, {
-            "Button0b05168f9f5ab42": "",
-            "btnActivityCall": "",
-            "btnActivityMsg": "",
-            "lblActivityCardBody": ""
-        }, {
-            "Button0b05168f9f5ab42": "",
-            "btnActivityCall": "",
-            "btnActivityMsg": "",
-            "lblActivityCardBody": ""
-        }, {
-            "Button0b05168f9f5ab42": "",
-            "btnActivityCall": "",
-            "btnActivityMsg": "",
-            "lblActivityCardBody": ""
-        }, {
-            "Button0b05168f9f5ab42": "",
-            "btnActivityCall": "",
-            "btnActivityMsg": "",
-            "lblActivityCardBody": ""
-        }],
+        "data": [
+            [{
+                    "lblActivityHeaderTitle": "Label"
+                },
+                [{
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }]
+            ],
+            [{
+                    "lblActivityHeaderTitle": "Label"
+                },
+                [{
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }, {
+                    "btnActivityCall": "",
+                    "btnActivityMsg": "",
+                    "btnReminder": "",
+                    "lblActivityCardBody": "",
+                    "lblUserId": "Label"
+                }]
+            ]
+        ],
         "groupCells": false,
         "id": "sgmtActivities",
         "isVisible": true,
-        "left": "0dp",
         "needPageIndicator": true,
         "pageOffDotImage": "pageoffdot.png",
         "pageOnDotImage": "pageondot.png",
         "retainSelection": false,
         "rowFocusSkin": "seg2Focus",
-        "rowSkin": "seg2Normal",
         "rowTemplate": flxActivityCardContainer,
         "scrollingEvents": {},
         "sectionHeaderSkin": "sliPhoneSegmentHeader",
+        "sectionHeaderTemplate": flxActivityHeader,
         "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
-        "separatorColor": "00000055",
-        "separatorRequired": true,
-        "separatorThickness": 3,
+        "separatorRequired": false,
+        "separatorThickness": 0,
         "showScrollbars": false,
-        "top": "0dp",
         "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
         "widgetDataMap": {
-            "Button0b05168f9f5ab42": "Button0b05168f9f5ab42",
             "btnActivityCall": "btnActivityCall",
             "btnActivityMsg": "btnActivityMsg",
+            "btnReminder": "btnReminder",
             "flxActivityCard": "flxActivityCard",
             "flxActivityCardContainer": "flxActivityCardContainer",
+            "flxActivityHeader": "flxActivityHeader",
             "flxActivityOptions": "flxActivityOptions",
-            "lblActivityCardBody": "lblActivityCardBody"
+            "lblActivityCardBody": "lblActivityCardBody",
+            "lblActivityHeaderTitle": "lblActivityHeaderTitle",
+            "lblUserId": "lblUserId"
         },
         "width": "100%",
         "zIndex": 1
@@ -279,7 +340,24 @@ function addWidgetsfrmHome() {
         "paddingInPixel": false
     }, {});
     flxAboActivies.add(sgmtActivities);
-    flxScrollMainActivity.add(flxMainNav, flxAboActivies);
+    var Button0da380c05206d40 = new kony.ui.Button({
+        "focusSkin": "slButtonGlossRed",
+        "height": "50dp",
+        "id": "Button0da380c05206d40",
+        "isVisible": true,
+        "left": "54dp",
+        "skin": "slButtonGlossBlue",
+        "text": "Button",
+        "top": "0dp",
+        "width": "260dp",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    flxScrollMainActivity.add(flxMainNav, flxAboActivies, Button0da380c05206d40);
     flxMainActivity.add(flxTitlebar, flxScrollMainActivity);
     var flxNavHome = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,

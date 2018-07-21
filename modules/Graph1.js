@@ -184,4 +184,4 @@ function kdv_createChartJSObject() {
     return chartInfo;
 };
 
-frmDashboard.flxGraph.graphBonusVsMonth.add(kdv_createChartWidget);
+//  frmDashboard.flxGraph.graphBonusVsMonth.add(kdv_createChartWidget());

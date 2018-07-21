@@ -1,8 +1,8 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "35dp"
     },
     "_margin_": [
         0,
@@ -20,7 +20,7 @@
     "_percent_": true,
     "_skin_": "sa3e7eb53f8744d08e85cdba5c81d12d",
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
         "lblSearchContent"

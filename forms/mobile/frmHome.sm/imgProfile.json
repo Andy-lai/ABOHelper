@@ -4,10 +4,7 @@
     "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_base64_": null,
-    "_height_": {
-        "type": "string",
-        "value": "80%"
-    },
+    "_height_": "80%",
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -25,19 +22,16 @@
         0
     ],
     "_skin_": "sa81a65c2bd94305b5bfcd3460a09fa5",
-    "_src_": "imagedrag.png",
+    "_src_": "usermanlogo.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
-    "_width_": {
-        "type": "string",
-        "value": "80%"
-    },
+    "_width_": "80%",
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "centery": {
         "type": "string",

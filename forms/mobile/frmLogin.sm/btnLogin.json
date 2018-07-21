@@ -35,22 +35,18 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "centery": {
         "type": "string",
-        "value": "80%"
+        "value": "79.96%"
     },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s2da0eaa08ed47eeb5878f80152c4266",
     "id": "btnLogin",
-<<<<<<< HEAD
     "ide_onClick": "AS_Button_ba3a520a824742e4ac9f7c7e8b1ef9be",
-=======
-    "ide_onClick": "AS_Button_e5a80a12fc3e4b82aac0577a792f89ab",
->>>>>>> 8849c861a0d0b33c125659731ad91331521e1280
     "info": null,
     "isvisible": true,
     "kuid": "g6182be5a2694cbc9f644bf0f85aaffa",

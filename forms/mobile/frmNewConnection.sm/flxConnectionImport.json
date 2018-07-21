@@ -47,7 +47,8 @@
         "btnImportProspect",
         "btnImportCustomer",
         "lblProspect",
-        "lblCustomer"
+        "lblCustomer",
+        "lblImportAs"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -324,4 +324,6 @@ function makeCall(eventobject) {
     kony.phone.dial(eventobject.text);
 };
 
-function initializeGlobalVariables() {};
+function initializeGlobalVariables() {
+    username = null;
+};

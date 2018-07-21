@@ -40,7 +40,11 @@
         "btnAddUser",
         "btnAddGroup",
         "btnViewUser",
-        "btnPromote"
+        "btnPromote",
+        "lblNewCon",
+        "lblNewGrp",
+        "lblView",
+        "lblPromotions"
     ],
     "clipbounds": true,
     "containerweight": 100,

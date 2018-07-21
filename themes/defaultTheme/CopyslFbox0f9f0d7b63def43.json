@@ -1,12 +1,316 @@
 {
+  "android": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": {
+      "angle": 0,
+      "colors": [
+        "0000ff",
+        "0000ff",
+        "0000ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toTop",
+      "gt": "linear"
+    },
+    "border_radius": 15,
+    "border_style": "custom",
+    "border_type": 1,
+    "border_width": 1,
+    "isForked": true
+  },
   "background_color": "ffffffff",
   "bg_type": "one",
   "border_color": "ffffffff",
   "border_radius": 15,
   "border_style": "custom",
   "border_type": 0,
-  "border_width": 1,
+  "border_width": 6,
+  "desktopweb": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "ipad": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": {
+      "angle": 0,
+      "colors": [
+        "0000ff",
+        "0000ff",
+        "0000ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toTop",
+      "gt": "linear"
+    },
+    "border_radius": 15,
+    "border_style": "custom",
+    "border_type": 1,
+    "border_width": 1,
+    "isForked": true
+  },
+  "iphone": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": {
+      "angle": 0,
+      "colors": [
+        "0000ff",
+        "0000ff",
+        "0000ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toTop",
+      "gt": "linear"
+    },
+    "border_radius": 15,
+    "border_style": "custom",
+    "border_type": 1,
+    "border_width": 1,
+    "isForked": true
+  },
   "isDefaultSkin": false,
+  "kiosk": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": {
+      "angle": 0,
+      "colors": [
+        "0000ff",
+        "0000ff",
+        "0000ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toTop",
+      "gt": "linear"
+    },
+    "border_radius": 15,
+    "border_style": "custom",
+    "border_type": 1,
+    "border_width": 1,
+    "isForked": true
+  },
   "kuid": "s3f5c24217c246d59ca4840b8c43a6c8",
-  "wType": "FlexContainer"
+  "spaan": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "spaandroidtablet": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "spabb": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "spaip": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "spaipad": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "spawindowstablet": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "spawinphone8": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 6,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 6,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 6,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 6
+  },
+  "tabrcandroid": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": {
+      "angle": 0,
+      "colors": [
+        "0000ff",
+        "0000ff",
+        "0000ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toTop",
+      "gt": "linear"
+    },
+    "border_radius": 15,
+    "border_style": "custom",
+    "border_type": 1,
+    "border_width": 1,
+    "isForked": true
+  },
+  "wType": "FlexContainer",
+  "windows8": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": {
+      "angle": 0,
+      "colors": [
+        "0000ff",
+        "0000ff",
+        "0000ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toTop",
+      "gt": "linear"
+    },
+    "border_radius": 15,
+    "border_style": "custom",
+    "border_type": 1,
+    "border_width": 1,
+    "isForked": true
+  },
+  "winphone8": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": {
+      "angle": 0,
+      "colors": [
+        "0000ff",
+        "0000ff",
+        "0000ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toTop",
+      "gt": "linear"
+    },
+    "border_radius": 15,
+    "border_style": "custom",
+    "border_type": 1,
+    "border_width": 1,
+    "isForked": true
+  }
 }

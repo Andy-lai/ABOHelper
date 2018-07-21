@@ -90,4 +90,4 @@ function kdv_createChartJSObject()
     return chartInfo;
 }
 
-frmDashboard.flxGraph.graphCustomersvsMonth.add(kdv_createChartWidget2);
+//  frmDashboard.flxGraph.graphCustomersvsMonth.add(kdv_createChartWidget2());

@@ -124,7 +124,7 @@ function addWidgetsfrmLogin() {
         "id": "btnLogin",
         "isVisible": true,
         "left": "49dp",
-        "onClick": AS_Button_cd1f7a674b8c47fe924db2c456d3f634,
+        "onClick": AS_Button_ba3a520a824742e4ac9f7c7e8b1ef9be,
         "skin": "CopyslButtonGlossBlue0e6a17700111844",
         "text": "Login",
         "top": "213dp",

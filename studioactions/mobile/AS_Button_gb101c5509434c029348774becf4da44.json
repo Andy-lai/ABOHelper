@@ -14,9 +14,20 @@
         },
         "language": "js",
         "actions": [{
-            "id": "ADD_SNIPPET__j24adb464f494680a90d884d003b8992",
+            "id": "NAVIGATE_TO_FORM___cb86d7b489c74d08aae099c6597a71a1",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "a4806521fe224e45a6283d38fdf1097a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true
+        }, {
+            "id": "ADD_SNIPPET__b7c254c218644d078b3b51fab0a9b1d9",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "\n\nmoveAnimation(frmHome.flxNavHome,\"0dp\");\nfrmHome.flxMainActivity.setEnabled(false)\n",
+            "codeSnippet": "moveAnimation(frmHome.flxNavHome,\"0dp\");\nfrmHome.flxMainActivity.setEnabled(false)",
             "parentId": null,
             "callbackType": null
         }]

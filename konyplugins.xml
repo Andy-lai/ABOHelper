@@ -5,12 +5,12 @@
     <pluginInfo version-no="7.3.0.GA_v201704051404" plugin-id="com.pat.soapui" plugin-name="Soap UI Plugin"/>
     <pluginInfo version-no="7.3.0.GA_v201704051213" plugin-id="com.kony.codegen" plugin-name="Kony Codegenerator"/>
     <pluginInfo version-no="7.3.0.GA_v201704051404" plugin-id="com.kony.license" plugin-name="Kony Studio Licensing"/>
-    <pluginInfo version-no="7.3.2.GA_v201706231516_r0" plugin-id="com.kony.cloudmiddleware" plugin-name="CloudMiddlewarePlugin"/>
-    <pluginInfo version-no="7.3.2.GA_v201706231516_r0" plugin-id="com.kony.cloudthirdparty" plugin-name="CloudThirdPartyPlugin"/>
+    <pluginInfo version-no="7.3.0.GA_v201704031012_r0" plugin-id="com.kony.cloudmiddleware" plugin-name="CloudMiddlewarePlugin"/>
+    <pluginInfo version-no="7.3.0.GA_v201704031012_r0" plugin-id="com.kony.cloudthirdparty" plugin-name="CloudThirdPartyPlugin"/>
     <pluginInfo version-no="7.3.0.GA_v201704051504" plugin-id="com.kony.viz.ide" plugin-name="Visualizer Integration Plugin"/>
     <pluginInfo version-no="7.3.0.GA_v201704051259" plugin-id="com.kony.studio.cloud" plugin-name="Kony Studio Cloud Integration"/>
     <pluginInfo version-no="7.3.0.GA_v201704051615" plugin-id="com.kony.studio.sky" plugin-name="Sky Data Explorer"/>
-    <pluginInfo version-no="7.3.0.GA_v201705142316_r2" plugin-id="com.kony.fpreview" plugin-name="Kony Functional Preview Plugin"/>
+    <pluginInfo version-no="7.3.0.GA_v201704051538" plugin-id="com.kony.fpreview" plugin-name="Kony Functional Preview Plugin"/>
     <pluginInfo version-no="7.3.0.GA_v201704051334" plugin-id="com.kony.studio.viz.api" plugin-name="StudioViz API"/>
     <pluginInfo version-no="7.3.0.GA_v201704051334" plugin-id="com.kony.studio.viz.chrome.api" plugin-name="StudioViz Chrome API"/>
     <pluginInfo version-no="7.3.0.GA_v201704051334" plugin-id="com.kony.studio.viz.chrome.win64" plugin-name="StudioViz Chrome"/>

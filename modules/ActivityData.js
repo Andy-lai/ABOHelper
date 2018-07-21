@@ -1,5 +1,4 @@
 //Type your code here
-<<<<<<< HEAD
 var Activities = 
     {
       "Today": [
@@ -49,7 +48,6 @@ var Activities =
         }
       ]
     }
-=======
 var ActivityData = [
   {
     "Today": [
@@ -104,4 +102,3 @@ var ActivityData = [
     ]
   }
 ]
->>>>>>> 8849c861a0d0b33c125659731ad91331521e1280

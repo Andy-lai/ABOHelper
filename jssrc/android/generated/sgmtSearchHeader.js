@@ -23,7 +23,7 @@ function initializesgmtSearchHeader() {
         "zIndex": 1
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-        "padding": [1, 1, 1, 1],
+        "padding": [1, 1, 1, 2],
         "paddingInPixel": false
     }, {
         "textCopyable": false

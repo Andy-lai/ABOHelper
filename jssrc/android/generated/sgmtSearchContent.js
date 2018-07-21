@@ -1,7 +1,8 @@
 function initializesgmtSearchContent() {
     flxSearchContent = new kony.ui.FlexContainer({
-        "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
+        "height": "35dp",
         "id": "flxSearchContent",
         "isVisible": true,
         "layoutType": kony.flex.FREE_FORM,

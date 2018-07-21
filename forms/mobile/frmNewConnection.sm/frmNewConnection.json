@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd60ccaffd3544bba35d8e37b215d935",
+    "_skin_": "se425c8c1a44407cbc312c1b0a0fe1f9",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -27,7 +27,6 @@
     "canUpdateUI": true,
     "children": [
         "flxConnectionImport",
-        "lblImportAs",
         "flxConnectionFill"
     ],
     "containerweight": 100,

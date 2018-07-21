@@ -1,0 +1,52 @@
+{
+    "AS_Button_b604247152bd4f3482e4c2ea8d3d5037": {
+        "id": "AS_Button_b604247152bd4f3482e4c2ea8d3d5037",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewConnection",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c13b4be660404fc89164e7453743bd68"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j8d55f327824428e8aecdba7fcf4414e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveUserInformation",
+            "display": "saveUserInformation",
+            "inputparams": [{
+                "name": "name",
+                "value": ""
+            }, {
+                "name": "phone",
+                "value": ""
+            }, {
+                "name": "email",
+                "value": ""
+            }, {
+                "name": "tags",
+                "value": ""
+            }, {
+                "name": "notes",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___ibe366f469164885830958dcb7464717",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "a4806521fe224e45a6283d38fdf1097a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

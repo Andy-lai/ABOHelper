@@ -1,8 +1,8 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -20,7 +20,7 @@
     "_percent_": true,
     "_skin_": "s499698d17e44937983b36aa8133c121",
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
         "lblActivityHeaderTitle"

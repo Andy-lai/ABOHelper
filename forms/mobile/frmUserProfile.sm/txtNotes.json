@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s56dbb04c1bf4f8a8c5fb6eeda941bd7",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "9%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "txtNotes",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "g025816c84714697b63985fedbb61079",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxTextFields",
+    "pf": "frmUserProfile",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

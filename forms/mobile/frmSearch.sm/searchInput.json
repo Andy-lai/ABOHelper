@@ -4,8 +4,8 @@
     "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "55dp"
     },
     "_left_": {
         "type": "string",
@@ -48,6 +48,7 @@
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "bb4b3ebd458d4b5e98204c1fbad5858a",
+    "maxtextlength": "",
     "mode": "A",
     "name": "kony.ui.TextBox2",
     "parent": "flxSearchBar",

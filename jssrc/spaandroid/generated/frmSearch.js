@@ -24,25 +24,10 @@ function addWidgetsfrmSearch() {
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "data": [
             [{
-                    "lblSearchHeader": "Label"
+                    "lblSearchHeader": ""
                 },
                 [{
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
-                }]
-            ],
-            [{
-                    "lblSearchHeader": "Label"
-                },
-                [{
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
-                }, {
-                    "lblSearchContent": "Label"
+                    "lblSearchContent": ""
                 }]
             ]
         ],
@@ -83,7 +68,7 @@ function addWidgetsfrmSearch() {
     var flxSearchBar = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "55dp",
+        "height": "70dp",
         "id": "flxSearchBar",
         "isVisible": true,
         "layoutType": kony.flex.FLOW_HORIZONTAL,
@@ -96,10 +81,12 @@ function addWidgetsfrmSearch() {
     flxSearchBar.setDefaultUnit(kony.flex.DP);
     var searchInput = new kony.ui.TextBox2({
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "height": "55dp",
         "id": "searchInput",
         "isVisible": true,
         "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
         "left": "0.00%",
+        "maxTextLength": null,
         "placeholder": "Search...",
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
